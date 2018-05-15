@@ -14,13 +14,8 @@
 
 
 <ion-content padding>
-
-    <ion-item>
-        <ion-label floating>Punktzahl</ion-label>
-        <ion-input type="text"></ion-input>
-    </ion-item>
     <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
-<ion-list>
+    <ion-list>
    
       <ion-item>Marco Ghilardelli</ion-item>
       <ion-item>Simon Gysin</ion-item>
@@ -28,4 +23,9 @@
       <ion-item>Rubil Muriyamadom</ion-item>
       
 </ion-list>
+    <ion-item>
+        <ion-label floating>Punktzahl</ion-label>
+        <ion-input type="text"></ion-input>
+    </ion-item>
+  
 </ion-content>
