@@ -31,5 +31,10 @@ export class PostenServiceProvider {
     return this.items; 
   }
 
+  addItem(name) { 
+    return this.itemsRef.push({ Name: name }); 
+  } 
+  
+
 
 }

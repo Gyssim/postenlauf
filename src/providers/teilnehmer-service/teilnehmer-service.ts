@@ -32,4 +32,8 @@ export class TeilnehmerServiceProvider {
     return this.items; 
   }
 
+  addItem(name, vorname) { 
+    return this.itemsRef.push({ Name: name, Vorname: vorname }); 
+  }
+
 }

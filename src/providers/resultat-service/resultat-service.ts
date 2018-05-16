@@ -32,4 +32,8 @@ export class ResultatServiceProvider {
     return this.items; 
   }
 
+  addItem(posten, punktzahl, teilnehmer) { 
+    return this.itemsRef.push({ Posten: posten, Punktzahl: punktzahl, Teilnehmer: teilnehmer  }); 
+  } 
+
 }
